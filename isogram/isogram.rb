@@ -24,7 +24,6 @@ class Isogram
         for n in char_map.values
             if n > 1 
                 repetidas = repetidas +  1
-    
             end
         end
       
@@ -33,9 +32,6 @@ class Isogram
         else
             puts 'is an isogram'
         end
-     
     end
 end
 
-prueba = Isogram.new
-prueba.isogram?("holp")
